@@ -1,4 +1,12 @@
 JBizArt::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/art"
+
+  get "static_pages/list"
+
+  get "static_pages/artist"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
