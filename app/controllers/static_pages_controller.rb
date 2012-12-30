@@ -1,13 +1,13 @@
 class StaticPagesController < ApplicationController
   def home
   end
-
-  def art
+  
+  def art 
   end
-
-  def list
+  
+  def list 
   end
-
-  def artist
-  end
+  
+  def artist 
+  end 
 end
