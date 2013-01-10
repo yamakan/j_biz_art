@@ -12,38 +12,117 @@
  *= require_tree .
  */
 
-.main{
+*{
 
-	/*box-orient: horizontal;*/
-	background-color: ;
+}
+
+p{
+	color:rgb(35,35,35);		
+
 	
+}
+.artist_nav{
+	visibility:hidden;
+}
+
+.main{
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
-	
 	display: -moz-box;
 	-moz-box-orient: horizontal;
-
+	color:rgb(35,35,35);
+	font-size:14px;
+	font-family:'arial';
 	
+
 }
 
 .container_left{
 	display: -webkit-box;
-
 	display: -moz-box;
-
+	position: fixed;
 	
-
-	background-color: ;
 }
 
 .container_right{
+	display: -webkit-box;
+	-webkit-box-orient:vertical ;
+	display: -moz-box;
+	-moz-box-orient:vertical ;
+	
+	position:absolute;
+	left:300px;
+	
+}
+
+/*
+.container_right{
+	display: -webkit-box;
+	-webkit-box-orient:horizontal ;
+	
+	display: -moz-box;
+	-moz-box-orient:horizontal ;
+	
+}
+*/
+.row1{
 	display: -webkit-box;
 	-webkit-box-orient: horizontal;
 	
 	display: -moz-box;
 	-moz-box-orient: horizontal;
 	
-
-	background-color: ;
 }
+
+.column{
+	width:440px;
+	
+}
+
+.art1_image_wrap{
+	margin-top:70px;
+	height:480px;
+	
+}
+
+.art1_name{
+	margin-right:100px;
+/*	position:relative;
+	left:100px;*/
+
+	
+}
+
+.art_description{
+	width:330px;
+
+	
+}
+
+
+.art2_image_wrap{
+	margin-top:70px;
+	height:480px;
+	
+}
+
+.art2_name{
+	margin-right:100px;
+/*	position:relative;
+	left:100px;*/
+
+	
+}
+
+
+.row2{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+	
+}
+
+
 

@@ -13,3 +13,39 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(function(){
+
+//jQuery(document).ready(function(){
+
+
+/*
+$("div.main").live("mouseover",function(){
+	$(this).css({
+		"backgroundColor": "rgb(220,139,59)",
+		"color":"#FFFFFF"
+	});
+	
+}).live("mouseout",function(){
+	$(this).css({
+		"backgroundColor": "rgb(251,251,251)",
+		"color": "rgb(128,128,128)"
+	});
+});
+*/
+
+$(".art1_description").css("opacity","1").hide();
+//$("div.art1_description_wrap").css("opacity","0.9").hide();
+
+$(".row1_column1").hover(function(){
+	$(".art1_description:not(:animated)").fadeIn("slow");
+	},function(){
+		$(".art1_description").fadeOut("slow");
+	});
+
+
+});
+
+
+
+
